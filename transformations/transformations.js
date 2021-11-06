@@ -4,7 +4,7 @@ import * as THREE from '../resources/threejs/three.module.js';
 let triangleMode = true;
 
 function main() {
-    const canvas = document.querySelector('#c');
+    const canvas = document.querySelector('#glcanvas');
     const renderer = new THREE.WebGLRenderer({canvas});
 
     // Connect inputs
